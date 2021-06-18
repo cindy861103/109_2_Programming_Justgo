@@ -3,7 +3,7 @@ def foot(f):
 <div id="Footer">
     <span style="font-family:cwTeXYen" "align:bottom";><font color="#FFFFFF"><h3>
     <p>==使用教學==<br>
-    網址：<a href="要連結的 URL 放這裡" target="_blank" title="使用教學"></a>
+    網址：https://www.youtube.com/watch?v=bHd_7tuHBwI<a href="https://www.youtube.com/watch?v=bHd_7tuHBwI" target="_blank" title="使用教學"></a>
     </p>
     
     <p>==QA專區==<br>
