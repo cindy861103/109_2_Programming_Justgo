@@ -57,8 +57,6 @@ def read_from_member(line_id):
     #conn.close()
 
 # write member data to database
-
-
 def write_to_member(member):
     conn = database_connect()
     cursor = conn.cursor()
@@ -71,8 +69,6 @@ def write_to_member(member):
     conn.close()
 
 # read member credit_index from database
-
-
 def check_credit_index(line_id):
     conn = database_connect()
     cursor = conn.cursor()
@@ -91,8 +87,6 @@ def check_credit_index(line_id):
     return credit_score
 
 # update member data to database
-
-
 def update_member_info(update_member):
     conn = database_connect()
     cursor = conn.cursor()
@@ -107,8 +101,6 @@ def update_member_info(update_member):
     conn.close()
 
 # read member student_id from database
-
-
 def get_sid_link(line_id):
     conn = database_connect()
     cursor = conn.cursor()
